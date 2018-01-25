@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
-  <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+  <suiteXmlFile>src/main/java/testng.xml</suiteXmlFile>
   <skipTests>false</skipTests>
   </properties>
   
@@ -14,7 +14,7 @@
                      <groupId>org.testng</groupId>
                      <artifactId>testng</artifactId>
                      <version>6.8</version>
-                     <scope>test</scope>
+                     <scope>compile</scope>
               </dependency>
               <dependency>
                      <groupId>org.seleniumhq.selenium</groupId>
